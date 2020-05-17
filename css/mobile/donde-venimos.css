@@ -1,0 +1,33 @@
+.donde-venimos {
+    margin: 0 16px;
+    
+    
+}
+
+.donde-venimos-p {
+    min-width: 288px;
+    min-height: 254px;
+    margin-top: 8px;
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .donde-venimos {
+        margin: 0 0 0 63px;
+    }
+    
+    .donde-venimos h2 {
+        font-size: 40px;
+    }
+
+    .donde-venimos-p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (min-width: 1326px) {
+    .donde-venimos h2 {
+        font-size: 48px;
+    }
+}

@@ -1,0 +1,112 @@
+.hero {
+    margin: 0 16px;
+    position: relative;
+}
+
+.hero span:first-child {
+    display: block;
+}
+
+.text-container {
+    min-height: 209px;
+
+}
+
+.hero .text-container .parrafo-mobile {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.hero h1 {
+    margin-bottom: 16px;
+    margin-top: 29px;
+    
+}
+
+.text-container .parrafo-desktop {
+    display: none;
+}
+
+.text-container .blue-dot {
+    display: inline;
+}
+
+.hero .button-container {
+    background: var(--button-Bg-Color);
+    text-align: center;
+    line-height: 48px;
+    width: 288px;
+    height: 48px;
+    font-family: var(--p-font-family);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 36px;
+
+}
+
+.button {
+    text-decoration: none;
+    color: var(--p-font-color);
+    transition: .3s ease all;
+    border-radius: 3px;
+}
+
+.hero .button-container:hover{
+    cursor: pointer;
+    background-image: var(--button-hover);
+    
+}
+
+.button-container:hover .button {
+    color: #fff;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        margin: 0 200px;
+    }
+
+    .text-container {
+        min-height: 188px;
+    
+    }
+
+    .text-container span:first-child {
+        display: inline;
+    }
+
+    .text-container h1 {
+        font-size: 64px;
+    }
+    
+
+    .text-container .blue-dot{
+        color: var(--Bg-nav);
+    }
+
+    .text-container .parrafo-desktop {
+        height: 48px;
+        width: 628px;
+        display: block;
+        font-size: 16px;
+    }
+
+    .text-container .parrafo-mobile {
+        display: none;
+    }
+
+    .hero .button-container {
+        width: 226px;
+        height: 56px;
+        line-height: 56px;
+        margin: 3rem 0;
+    }
+}
+
+@media only screen and (min-width: 1120px) {
+    .hero .button-container {
+        margin: 0;
+    }
+}

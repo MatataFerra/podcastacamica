@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+@import "./variables.css";
+@import "./hero.css";
+@import "./header.css";
+@import "./episodios.css";
+@import "./telefono.css";
+@import "./donde-venimos.css";
+@import "./contenedor-tel-y-venimos.css";
+@import "./invitados.css";
+@import "./temas.css";
+@import "./novedades.css";
+@import "./footer.css";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+h1, h2 {
+    font-size: var(--h-font-size);
+    color: var(--h-font-color);
+    font-family: var(--h-font-family);
+}
+
+p {
+    font-size: var(--p-font-size);
+    font-family: var(--p-font-family);
+    color: var(--p-font-color);
+}
+
+nav {
+    background: var(--nav-Bg-color);
+}
+
+ul {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+h2 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}

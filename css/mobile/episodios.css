@@ -1,0 +1,53 @@
+.contenedor-episodios {
+    
+    clip-path: polygon(0 3%, 100% 0, 100% 96%, 0% 100%);
+    background-image: var(--Bg-Color);
+    min-height: 1200px;
+    
+    padding-top: 64px;
+    padding-bottom: 144px;
+
+    
+    
+    /*max-width: 320px; lo agregué porque sino hacía scroll hacia la derecha*/
+
+}
+
+.episodios {
+    margin: 0 16px;
+}
+
+.episodios h2 {
+    color: #fff;
+    margin-bottom: 21px;
+    font-weight: 400;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .contenedor-episodios {
+        clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+        padding-bottom: 0px;
+        min-height: 980px;
+        width: 100%;
+        
+    }
+
+    .episodios {
+        padding-top: 100px;
+        margin: 0 100px 0 100px;
+    }
+
+    .episodios h2 {
+        margin-bottom: 26px;
+        margin-left: 100px;
+        font-size: 48px;
+    }
+
+    .episodios-caps {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 72px 72px;
+    }
+}

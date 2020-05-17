@@ -1,0 +1,19 @@
+@media only screen and (min-width: 940px) {
+    .contenedor-telefono img {
+        height: 660px;
+        width: 430px;
+    }
+
+    .contenedor-tel-y-venimos {
+        display: flex;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 1rem 0;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .contenedor-tel-y-venimos {
+        margin: 0 256px 0 200px ;
+    }
+}

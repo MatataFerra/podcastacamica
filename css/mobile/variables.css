@@ -1,0 +1,26 @@
+:root {
+    --h-font-size: 36px;
+    --h-font-color: #060a24;
+    --h-font-family: 'IBM Plex Sans', sans-serif;
+    
+
+    --p-font-size: 14px;
+    --p-font-color: #060a24;
+    --p-font-family: 'IBM Plex Mono', monospace;
+    --p-temas-font: 'IBM Plex Mono', monospace;
+
+    /*Buttons*/
+
+    --button-font-family: 'IBM Plex Mono', monospace;
+    --button-Bg-Color: #00f3bb;
+    --button-text-Color: #060a24;
+    --button-hover: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+
+    /*Backgrounds*/
+
+    --Bg-Color: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+
+    --Bg-nav: #0000EC;
+
+    --nav-Bg-color: rgb(41, 41, 209);
+}
